@@ -4,7 +4,7 @@ let entrada = prompt ("¿Cuál es la mejor canción del nuevo album de Bad Bunny
 if (entrada == "me porto bonito") {
     alert("muy bien, tenés buen gusto ;)")
 } else { //si no es correcta, se debe repetir la entrada hasta acertar
-    while ((entrada != "me porto bonito") || (entrada = " ")) {
+    while (entrada != "me porto bonito") {
         alert("mmm no, " + entrada + " esta buena, pero no es la mejor")
         entrada = prompt("volvé a intentarlo");
     }
